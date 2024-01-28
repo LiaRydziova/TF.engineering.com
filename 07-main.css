@@ -1,0 +1,62 @@
+h1 {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 10px 10px 10px 10px;
+    opacity: 100%;
+}
+
+
+section {
+    font-size: 20px;
+    background-color: azure;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section.hidden {
+    opacity: 0;
+    transition: all 2s;
+    filter: blur(5px);
+    transform: translateX(-30px);
+}
+
+
+section.hidden.active {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0px);
+}
+
+.vrchny-panel {
+    background-color: slategray;
+    border-radius: 50px;
+    opacity: 100%;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    opacity: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 100%;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 100%;
+}
+
+body{
+    opacity: 75%
+}
